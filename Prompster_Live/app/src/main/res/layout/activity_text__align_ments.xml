@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#323337"
+    tools:context=".Activity.Text_AlignMents">
+<RelativeLayout
+    android:id="@+id/rl_design"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_150sdp"
+    android:layout_marginLeft="@dimen/_10sdp"
+    android:layout_marginRight="@dimen/_10sdp"
+    android:layout_marginTop="@dimen/_20sdp"
+    android:background="@color/white">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
+
+
+    </EditText>
+
+
+
+
+</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_options"
+        android:layout_below="@+id/rl_design"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Text Options"
+    android:textColor="@color/white"
+    android:layout_centerVertical="true"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:textSize="@dimen/_15ssp"
+    >
+
+
+</TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/cross_white">
+
+
+        </ImageView>
+
+
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/rl_options"
+        android:background="@color/white"></View>
+
+    <RelativeLayout
+        android:id="@+id/rl_align"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view"
+        android:layout_marginTop="@dimen/_10sdp">
+
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/left_align_white"
+    android:layout_marginLeft="@dimen/_20sdp">
+
+
+
+</ImageView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/center_align_white"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/_20sdp">
+        </ImageView>
+  <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/right_align_white"
+            android:layout_marginRight="@dimen/_10sdp"
+      android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/_20sdp">
+        </ImageView>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_align"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:background="@drawable/align_design">
+
+<TextView
+    android:id="@+id/tv_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="A"
+    android:textColor="@color/white"
+    android:textSize="@dimen/_15ssp"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="@dimen/_5sdp"
+    >
+
+</TextView>
+
+        <TextView
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="A"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/_15sdp"
+    android:textColor="@color/white"
+    android:textSize="@dimen/_15ssp"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="@dimen/_5sdp"
+    >
+
+        </TextView>
+
+        <SeekBar
+            android:id="@+id/seekBar_luminosite"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:progress="30"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:progressDrawable="@drawable/custom_seekbar"
+            android:thumb="@drawable/custom_thumb"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+android:id="@+id/rl_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_a"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+
+        android:background="@drawable/align_design">
+
+        <ImageView
+            android:id="@+id/iv_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp"
+            android:background="@drawable/margin"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_5sdp"
+            >
+
+        </ImageView>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Margin"
+           android:layout_toRightOf="@id/iv_margin"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_5sdp"
+            >
+
+        </TextView>
+
+        <SeekBar
+
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:progress="30"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_80sdp"
+            android:progressDrawable="@drawable/custom_seekbar"
+            android:thumb="@drawable/custom_thumb"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_margin"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+
+        android:background="@drawable/align_design">
+
+        <ImageView
+          android:id="@+id/iv_marker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp"
+            android:background="@drawable/marker"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_5sdp"
+            >
+
+        </ImageView>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="marker"
+            android:layout_toRightOf="@id/iv_marker"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_5sdp"
+            >
+
+        </TextView>
+
+        <SeekBar
+
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:progress="30"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_80sdp"
+            android:progressDrawable="@drawable/custom_seekbar"
+            android:thumb="@drawable/custom_thumb"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

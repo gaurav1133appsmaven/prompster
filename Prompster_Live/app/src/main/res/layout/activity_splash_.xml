@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Activity.Splash_Activity">
+
+
+
+    <RelativeLayout
+        android:id="@+id/rl_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     android:layout_marginTop="@dimen/_180sdp"
+
+  >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+
+            android:background="@drawable/large_user">
+
+
+        </ImageView>
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_image">
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Scriptively Splash"
+    android:gravity="center"
+    android:layout_marginTop="20dp"
+    android:textColor="#fff"
+
+    android:textSize="@dimen/_26ssp">
+
+</TextView>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

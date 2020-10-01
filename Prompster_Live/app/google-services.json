@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "174912979274",
+    "firebase_url": "https://prompster-dcaa9.firebaseio.com",
+    "project_id": "prompster-dcaa9",
+    "storage_bucket": "prompster-dcaa9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174912979274:android:01f4e0b1b8ba5c5e3981b3",
+        "android_client_info": {
+          "package_name": "com.project.prompster_live"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174912979274-r5bd26hcn9jf1sna5m7sjbdua0s299kl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.prompster_live",
+            "certificate_hash": "f790ea16d36da0690e51efa706bda2a529ba9e2b"
+          }
+        },
+        {
+          "client_id": "174912979274-mh1megp5anqlfosr5dgba3lbff6oe1q8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACRoWrbGjIIYvH5-Q3YN7qqcaMqvl0mtE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174912979274-mh1megp5anqlfosr5dgba3lbff6oe1q8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
