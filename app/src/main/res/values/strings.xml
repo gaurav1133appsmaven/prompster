@@ -1,0 +1,123 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Scriptively</string>
+    <string name="title_activity_script_navigation">Script_navigation</string>
+    <string name="facebookappid">627510791194772</string>
+    <string name="fb_login_protocol_scheme">fb3627510791194772</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">New Script</string>
+    <string name="menu_gallery">Recent Scripts</string>
+    <string name="menu_slideshow">Welcome Promp..</string>
+
+    <string name="all_script">All Script</string>
+    <string name="folder">Folders</string>
+    <string name="public_talk">Public Talk</string>
+
+    <string name="writing_here">Start writing, copy and paste text from  another app or..</string>
+    <string name="home_second">Home Second</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="drawer_open" />
+
+
+    ///////////////////////////////////////////////////////////
+
+
+    <string name="sign">Sign in</string>
+    <string name="sign_in">Sign In</string>
+    <string name="signup">Sign Up</string>
+    <string name="sign_facebook">Sign in with facebook</string>
+
+    <string name="sign_gmail">Sign up with Google</string>
+    <string name="frst_name">First Name</string>
+    <string name="lst_name">Last Name </string>
+    <string name="emai_addreess">Email address</string>
+    <string name="password">Password</string>
+    <string name="sign_up_facebbok">Sign up with Facebook</string>
+    <string name="sign_up_gmail">Sign up with Google</string>
+    <string name="get_started">Get Started</string>
+    <string name="ok">Ok</string>
+    <string name="signup_successfully">User Successfully added</string>
+    <string name="let_get_started">Lets get started</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="forgot_passsword">Forgot password?</string>
+    <string name="or">OR</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_passwordd">Reset password</string>
+    <string name="alll_script">All Script</string>
+    <string name="select">Select</string>
+    <string name="script">Script</string>
+    <string name="story_board">Story Board</string>
+    <string name="media">Media</string>
+    <string name="title">Title</string>
+    <string name="welcome_to_prompster">Welcome to Prompster</string>
+    <string name="import_files">Import Script</string>
+    <string name="files">Files</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="google_drive">google Drive</string>
+    <string name="cancel">Cancel</string>
+    <string name="test">Test</string>
+    <string name="testing">Testing</string>
+    <string name="reset">Reset</string>
+    <string name="logoff">Log off</string>
+    <string name="export_script">Export Script</string>
+    <string name="print">Print</string>
+    <string name="email">Email</string>
+    <string name="cancell">Cancel</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+
+    <string name="value">Value Proposition</string>
+    <string name="message_one">Message One</string>
+    <string name="already_have_acc">Already have an account?</string>
+    <string name="terms">Terms and</string>
+    <string name="condition">Conditions</string>
+    <string name="and">and</string>
+    <string name="privacy_policy">Privacy Policy.</string>
+    <string name="by_continuting">By continuting,you agree to Prompsters</string>
+    <string name="start_copy">Start writing copy and paste text from another app or..</string>
+    <string name="setting">Setting</string>
+    <string name="tele_promptersetting">TelePrompter Setting</string>
+    <string name="background_color">Background Color</string>
+    <string name="miror_text">Mirror Text</string>
+    <string name="video_aspect_ratio">Video Aspect Ratio</string>
+    <string name="well" tools:ignore="StringEscaping">Well email you a link to reset the password</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="by_continuing">By continuting you agree to Promsters</string>
+    <string name="by">By continuting, you agree to Scriptively\'s</string>
+    <string name="free">free</string>
+    <string name="my_susbcription">My subscription</string>
+    <string name="in_app">In App Purchases</string>
+    <string name="editor">Editor Settings</string>
+    <string name="teleprompster_setting">Teleprompster Settings</string>
+    <string name="how_tovidesos">How to Videos</string>
+    <string name="faq">FAQ</string>
+    <string name="review">Review</string>
+    <string name="support">Support</string>
+    <string name="other">Other Apps by DanteMedia,LLC.</string>
+    <string name="logoutt">Logout</string>
+    <string name="version">Version 1.0</string>
+    <string name="prompsterr">Scriptively</string>
+    <string name="copyright">Copyright @ 2020, Scriptively, LLC</string>
+
+    <string name="message_two">Message Two</string>
+    <string name="message_thre">Message Three</string>
+    <string name="timerVal">00:00:00</string>
+    <string name="app_key">a3vw0mjhsmn3q0e</string>
+
+    <string name="prompster">Everything that a</string>
+    <string name="value_prom">Speaker needs to</string>
+    <string name="message_onee">Write and deliver</string>
+    <string name="start_writing">All-in-one script,editor,teleprompter and recorder app created by speakers for speakers</string>
+    <string name="start_writing_second">Overcome your fear of public speaking and learn to communicate with more confidence</string>
+    <string name="start_writing_third">With more confidence you can better engage your audience and expand your influence</string>
+    <string name="write_prompt">Write, prompt, record &amp; playback talks to improve your skills, and ...</string>
+    <string name="learn_speak">Learn to speak, teach &amp; lead with more confidence and authority</string>
+    <string name="google_license_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyiqkbtsfnvJdWZ7as+w3eFSiSu+wKyjQjdavZhEssuFSZvCXQvPqL+ubqaO+ziG9MNi8bYaPUfxQsAVuXgSX2ZV/LSga+ihOBIOoGXmsloY93KUyT1uIEfM6fCT4/XQqrKHRAyIY2F5PXmqkkY3DeYlO0c2OK+lnRkoY0w7XnSBGuPVjJNjGf590VYPeJpVtrxVF7gLXFoFgHOY9t91Uj4UgoMUsy7Fe4UXSu/FoPuepZfHKTGSPWZG/1E158tOLcYjXYJBHlaP8JsoHLZuoya/Vy5QlTRocp5KB4+QAc23x/+iP+p8WxpMxi7vuebVejhVkoGzkh9p5wBm4Fk1I5wIDAQAB</string>
+
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "812089474187",
+    "firebase_url": "https://scriptively.firebaseio.com",
+    "project_id": "scriptively",
+    "storage_bucket": "scriptively.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812089474187:android:7606bb5cb46098448fa88e",
+        "android_client_info": {
+          "package_name": "com.project.prompster_live"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812089474187-kigkggetoicrvh05reumqgg0ls6oq250.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.prompster_live",
+            "certificate_hash": "ed4607200b392d8277dc6597ae5fd73c6e5cb7f1"
+          }
+        },
+        {
+          "client_id": "812089474187-6k45qnbjhke0cears3gtr6lr17d1f07t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYJpOm-YshUQ8FHVQAakUYz6i_Fd0v8eg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812089474187-6k45qnbjhke0cears3gtr6lr17d1f07t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "812089474187-embslc7137hh41ep2b9vcvf549llmnc8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.scriptively.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
