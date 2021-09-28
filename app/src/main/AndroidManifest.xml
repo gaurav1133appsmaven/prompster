@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.scriptively.app">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- <uses-feature android:name="android.hardware.camera" /> -->
+    <!-- <uses-feature android:name="android.hardware.camera.autofocus" /> -->
+    <!-- <uses-feature android:name="android.hardware.camera.flash" /> -->
+    <!-- <uses-feature android:name="android.hardware.camera2.full" /> -->
+    <!-- <uses-feature -->
+    <!-- android:name="android.hardware.camera2.front" -->
+    <!-- android:required="false" /> -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.STORAGE" />
+
+    <application
+        android:name="com.scriptively.app.App"
+        android:icon="@drawable/android_app_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:allowBackup="false"
+        android:requestLegacyExternalStorage="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/android_app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:screenOrientation="portrait"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:icon,android:allowBackup">
+        <activity android:name="com.scriptively.app.Activity.ui.HowToVideo"/>
+        <activity android:name="com.scriptively.app.Activity.SpecificFolder" />
+        <activity android:name="com.scriptively.app.Activity.Teleprompter_Screen" />
+        <activity android:name="com.scriptively.app.Activity.Welcome" />
+        <activity android:name="com.scriptively.app.Activity.Text_AlignMents" />
+        <activity android:name="com.scriptively.app.Activity.In_app" />
+        <activity android:name="com.scriptively.app.Activity.Profile_Activity" />
+        <activity
+            android:name="com.scriptively.app.Activity.Script_Toolbar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.scriptively.app.Activity.Signup_FirstScreen" />
+        <activity android:name="com.scriptively.app.Activity.Script_first" />
+        <activity android:name="com.scriptively.app.Activity.GoogleDriveFiles" />
+        <activity android:name="com.scriptively.app.Activity.DropBox" />
+        <activity
+            android:name="com.dropbox.core.android.AuthActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask">
+            <intent-filter>
+
+                <!-- Change this to be db- followed by your app key -->
+                <data android:scheme="db-ogp2q4yg0nntd1o" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.scriptively.app.Activity.Navigation"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+
+        <receiver android:name="com.scriptively.app.Utils.ConnectivityChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity android:name="com.scriptively.app.Activity.Script_Screen" />
+        <activity android:name="com.scriptively.app.Activity.Reset_Password" />
+        <activity android:name="com.scriptively.app.Activity.SignUp_Screen" />
+        <activity android:name="com.scriptively.app.Activity.Login_Screen" />
+        <activity
+            android:name="com.scriptively.app.Activity.Splash_Activity"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.scriptively.app.MainActivity" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebookappid" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

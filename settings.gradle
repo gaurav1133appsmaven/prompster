@@ -1,0 +1,2 @@
+rootProject.name='Prompster_Live'
+include ':app'

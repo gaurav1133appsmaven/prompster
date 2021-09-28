@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:id="@+id/rel_main_navigation"
+    tools:context=".Activity.Navigation">
+
+    <!--    <com.google.android.material.appbar.AppBarLayout-->
+    <!--        android:id="@+id/app_bar"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--    >-->
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+
+        android:layout_height="@dimen/_40sdp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/iv_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:padding="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/menu">
+
+            </ImageView>
+            <TextView
+                android:id="@+id/tv_cancel_drawer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text="Cancel"
+                android:textColor="@color/app_color"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+
+                android:textSize="@dimen/_14ssp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_allscript"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_9sdp"
+                android:text="All Scripts"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14ssp">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/tv_select"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/_9sdp"
+                android:layout_marginRight="@dimen/_22sdp"
+                android:text="Select"
+                android:textColor="@color/app_color"
+                android:textSize="@dimen/_13ssp">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/tv_select_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:text="Select All"
+                android:textColor="@color/app_color"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:textSize="@dimen/_14ssp"
+                android:visibility="gone">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_move"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:text="Move"
+                android:textColor="@color/app_color"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:textSize="@dimen/_14ssp"
+                android:visibility="gone">
+
+
+
+            </TextView>
+            <TextView
+                android:id="@+id/tv_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:text="Done"
+                android:textColor="@color/app_color"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:textSize="@dimen/_14ssp"
+                android:visibility="gone">
+
+
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <!--    </com.google.android.material.appbar.AppBarLayout>-->
+
+
+    <include layout="@layout/content_main3" />
+
+    <RelativeLayout
+        android:id="@+id/rl_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:id="@+id/rel_search"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:background="@drawable/search_button">
+
+            <ImageView
+                android:id="@+id/iv_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:background="@drawable/search">
+
+            </ImageView>
+
+            <EditText
+                android:id="@+id/et_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_toRightOf="@+id/iv_search"
+                android:background="@null"
+                android:hint="Search"
+                android:layout_toLeftOf="@+id/iv_cancel"
+                android:maxLines="1"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:textSize="@dimen/_13ssp">
+
+
+            </EditText>
+            <ImageView
+                android:id="@+id/iv_cancel"
+                android:visibility="gone"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:background="@drawable/cross">
+
+            </ImageView>
+
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_search"
+
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_30sdp">
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/swipe_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_20sdp">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_folder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:visibility="gone">
+
+
+            </androidx.recyclerview.widget.RecyclerView>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:visibility="gone"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_alignParentBottom="true"
+
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/iv_importinactive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_14sdp"
+
+
+            android:background="@drawable/import_inactive">
+
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/iv_importactive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_14sdp"
+            android:background="@drawable/import_active"
+            android:visibility="gone">
+
+
+        </ImageView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

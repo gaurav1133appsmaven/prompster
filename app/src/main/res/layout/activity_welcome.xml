@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+ >
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Activity.Welcome">
+
+    <ImageView
+        android:id="@+id/iv_wel"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:background="@drawable/logo">
+
+    </ImageView>
+
+
+    <com.scriptively.app.Utils.ViewPagerCustomDuration
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_270sdp"
+        android:layout_below="@+id/iv_wel" />
+
+    <LinearLayout
+        android:id="@+id/layoutDots"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_below="@+id/view_pager"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:gravity="center"
+        android:orientation="horizontal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".5"
+        android:visibility="gone"
+        android:layout_above="@id/layoutDots"
+        android:background="@android:color/white" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutDots">
+
+        <TextView
+            android:id="@+id/btn_next"
+            android:layout_width="@dimen/_230sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/button_shape"
+            android:gravity="center"
+            android:text="@string/signup"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18ssp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_next1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Sign In"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/btn_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@null"
+        android:text="SKIP"
+        android:visibility="gone"
+        android:textColor="@android:color/white" />
+
+    <RelativeLayout
+        android:id="@+id/rl_signin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/rl_sign"
+        android:gravity="center"
+   >
+
+
+        <TextView
+            android:id="@+id/tv_sign_inn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_13ssp"
+
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:text="@string/already_have_acc">
+
+        </TextView>
+        <TextView
+            android:id="@+id/tv_sign_in"
+            android:layout_toRightOf="@+id/tv_sign_inn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_13ssp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:textStyle="bold"
+            android:textColor="@color/app_color"
+            android:text="@string/sign">
+
+        </TextView>
+
+    </RelativeLayout>
+</RelativeLayout>
+</ScrollView>

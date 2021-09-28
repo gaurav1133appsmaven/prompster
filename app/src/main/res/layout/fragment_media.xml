@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginLeft="@dimen/_19sdp"
+        android:layout_marginRight="@dimen/_14sdp">
+
+
+
+
+
+            <TextView
+                android:id="@+id/tv_media_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome to prompster"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14ssp">
+
+            </TextView>
+
+
+
+         <ImageView
+             android:id="@+id/iv_data"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/list_two"
+             android:layout_centerVertical="true"
+             android:layout_alignParentRight="true">
+
+
+
+         </ImageView>
+
+
+   <ImageView
+             android:layout_toLeftOf="@+id/iv_data"
+       android:layout_marginRight="@dimen/_15sdp"
+       android:layout_centerVertical="true"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/list_one"
+            >
+
+
+
+         </ImageView>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="@dimen/_160sdp"
+    android:background="#323337">
+
+    <RelativeLayout
+        android:id="@+id/rl_audio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Audio Options"
+            android:textSize="@dimen/_18ssp"
+
+            android:textColor="@color/white">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cross_white"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_audio"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/white"
+            >
+
+        </View>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_below="@id/rl_view"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@drawable/audi_record"
+        android:layout_marginTop="@dimen/_10sdp">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Record me"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20ssp"
+          android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_5sdp">
+
+        </TextView>
+
+        <ToggleButton
+            android:id="@+id/chkState"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/toggle_selector"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:textOff=""
+            android:textOn=""/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

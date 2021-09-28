@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EC5644</color>
+    <color name="colorPrimaryDark">#EC5644</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="app_color">#EC5644</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="grey">#CCD4DC</color>
+    <color name="color_main">#929396</color>
+    <color name="dot_dark_screen1">#D3CACA</color>
+    <color name="dot_dark_screen2">#D3CACA</color>
+    <color name="dot_dark_screen3">#D3CACA</color>
+    <color name="dot_dark_screen4">#D3CACA</color>
+    <color name="orange">#E65020</color>
+    <color name="yellow">#FF9800</color>
+    <color name="green">#137A17</color>
+    <color name="grey_light">#A4A6A4</color>
+    <color name="thumbtint">#A0A0A2</color>
+    <color name="tracktint">#494A50</color>
+    <color name="switch_color">#F96A1D</color>
+
+<color name="sky_blue">#187AC6</color>
+    <color name="purple">#BD1ED8</color>
+    <color name="blue">#45159C</color>
+
+    <color name="lightgrey">#BFBEC1</color>
+<color name="button">#EC5644</color>
+    <color name="greyy">#CCD4DC</color>
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#000000</color>
+    <color name="dot_light_screen2">#000000</color>
+    <color name="dot_light_screen3">#000000</color>
+    <color name="dot_light_screen4">#000000</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/rl_dataa"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp">
+
+        <RelativeLayout
+            android:id="@+id/rel_active_inactive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+
+        <ImageView
+            android:id="@+id/inactive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:src="@drawable/radio_inactive">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/active"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:src="@drawable/radio_active">
+
+        </ImageView>
+
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="#333333"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/rel_active_inactive"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:text="Welcome to Script">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_10ssp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_below="@id/tv_welcome"
+            android:layout_toRightOf="@+id/rel_active_inactive"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:text="04/21/2020">
+
+        </TextView>
+        <TextView
+            android:id="@+id/tv_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_10ssp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_below="@id/tv_welcome"
+            android:layout_toRightOf="@id/tv_time"
+
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:text="43kb">
+
+        </TextView>
+
+
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="#DCD6D6"
+        android:layout_marginTop="@dimen/_5sdp"
+
+        android:layout_below="@+id/rl_dataa">
+
+
+
+    </View>
+
+</RelativeLayout>
+

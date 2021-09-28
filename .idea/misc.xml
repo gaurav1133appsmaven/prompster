@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.25" />
+        <entry key="app/src/main/res/drawable/storyboard_adapter_view.xml" value="0.175390625" />
+        <entry key="app/src/main/res/layout-land/activity_script__toolbar.xml" value="0.7043399638336347" />
+        <entry key="app/src/main/res/layout-land/activity_script_first.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/activity_drop_box.xml" value="0.173046875" />
+        <entry key="app/src/main/res/layout/activity_login__screen.xml" value="0.173046875" />
+        <entry key="app/src/main/res/layout/activity_main3.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/activity_script__toolbar.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/activity_script_first.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_signup__first_screen.xml" value="0.11944444444444445" />
+        <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/app_bar_main3.xml" value="0.11276683780102119" />
+        <entry key="app/src/main/res/layout/delete_or_not.xml" value="0.173046875" />
+        <entry key="app/src/main/res/layout/demo.xml" value="0.16328125" />
+        <entry key="app/src/main/res/layout/files_item.xml" value="0.173046875" />
+        <entry key="app/src/main/res/layout/first_name.xml" value="0.19914529914529913" />
+        <entry key="app/src/main/res/layout/fragment_media.xml" value="0.19914529914529913" />
+        <entry key="app/src/main/res/layout/fragment_script1.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/menu_navigation.xml" value="0.19914529914529913" />
+        <entry key="app/src/main/res/layout/script_item.xml" value="0.1635928961748634" />
+        <entry key="app/src/main/res/layout/story_board.xml" value="0.173046875" />
+        <entry key="app/src/main/res/layout/title.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/title_validation.xml" value="0.16328125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
