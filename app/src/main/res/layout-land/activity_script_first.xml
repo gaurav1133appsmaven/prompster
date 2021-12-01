@@ -72,27 +72,14 @@
         android:layout_marginRight="@dimen/_15sdp"
         android:visibility="gone"/>
 
-
-    <ScrollView
-        android:id="@+id/main_scrollView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/toolbar"
-        android:layout_above="@id/seekbarr_pause">
-
-
-        <RelativeLayout
-            android:id="@+id/rl_data"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="@dimen/_20sdp"
-            android:layout_marginRight="@dimen/_20sdp">
-
-
-            <com.project.prompster_live.Utils.VerticalScrollview
-                android:id="@+id/scrollView"
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/main_scrollView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="fill_parent"
+                android:fillViewport="true"
+                android:layout_below="@id/toolbar"
+                android:layout_above="@id/seekbarr_pause"
+                android:overScrollMode="always"
                 android:scrollbars="vertical">
 
 
@@ -100,9 +87,13 @@
                 <TextView
                     android:id="@+id/et_firstscreen"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:textColor="@color/white"
                     android:text="Demo"
+
+                    android:overScrollMode="always"
+                    android:scrollbarStyle="insideInset"
+                    android:scrollbars="vertical"
                     android:textSize="@dimen/_15ssp">
 
                 </TextView>
@@ -110,11 +101,10 @@
 
                 <!--        </LinearLayout>-->
 
-            </com.project.prompster_live.Utils.VerticalScrollview>
+            </androidx.core.widget.NestedScrollView>
 
 
-        </RelativeLayout>
-    </ScrollView>
+
 
     <RelativeLayout
         android:id="@+id/rel_small_camera"

@@ -15,9 +15,7 @@ import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.project.prompster_live.R;
-
-import static androidx.recyclerview.widget.ItemTouchHelper.Callback.makeMovementFlags;
+import com.scriptively.app.R;
 
 abstract  public class SwipeToDeleteCallback extends ItemTouchHelper.Callback {
 

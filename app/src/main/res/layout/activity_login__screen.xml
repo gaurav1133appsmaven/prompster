@@ -110,14 +110,13 @@
                         android:id="@+id/et_email"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:background="@null"
                         android:hint="@string/emai_addreess"
-                        android:textColor="@color/black"
-                        android:inputType="text"
-                        android:lines="1"
                         android:imeOptions="actionNext"
-                        android:textSize="@dimen/_12ssp"
-                        android:background="@null">
-                    </EditText>
+                        android:inputType="textEmailAddress"
+                        android:lines="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12ssp"/>
 
 
 
@@ -314,16 +313,15 @@
                     android:layout_marginTop="@dimen/_20sdp">
 
 
-
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/sign_facebook"
+                        android:background="@drawable/facebokk_button"
                         android:gravity="center"
-                        android:textSize="@dimen/_17ssp"
-                        android:textStyle="bold"
+                        android:text="@string/sign_facebook"
                         android:textColor="#fff"
-                        android:background="@drawable/facebokk_button">
+                        android:textSize="@dimen/_17ssp"
+                        android:textStyle="bold">
 
 
                     </TextView>

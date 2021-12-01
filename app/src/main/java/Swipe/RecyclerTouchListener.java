@@ -15,8 +15,6 @@ import android.view.ViewConfiguration;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.ListView;
 
-import com.project.prompster_live.Activity.Navigation;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;

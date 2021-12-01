@@ -26,7 +26,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-
                     android:background="@drawable/back" />
 
                 <TextView
@@ -64,7 +63,19 @@
         android:layout_height="match_parent"
         android:layout_above="@+id/rel_googledrive_lo"
         android:layout_below="@+id/rel_main_google_drive"
-        android:layout_margin="@dimen/_10sdp" />
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp" />
+    <TextView
+        android:id="@+id/tv_noFiles"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="No files found!"
+        />
 
     <RelativeLayout
         android:id="@+id/rel_googledrive_lo"
@@ -83,8 +94,8 @@
                 android:id="@+id/tv_reset"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Reset"
                 android:layout_centerVertical="true"
+                android:text="@string/reset"
                 android:textColor="@color/app_color"
                 android:textSize="@dimen/_14ssp">
 
@@ -95,9 +106,9 @@
                 android:id="@+id/log_off_dropbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:text="LogOff"
+                android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
+                android:text="LogOff"
                 android:textColor="@color/app_color"
                 android:textSize="@dimen/_14ssp">
 

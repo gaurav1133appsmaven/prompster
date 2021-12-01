@@ -24,7 +24,7 @@
                 android:orientation="vertical">
 
 
-                <com.project.prompster_live.Utils.ViewPagerCustomDuration
+                <com.scriptively.app.Utils.ViewPagerCustomDuration
                     android:id="@+id/view_pager"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_300sdp"

@@ -57,7 +57,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
+            android:gravity="left"
+            android:layout_marginLeft="16dp"
             android:text="Try Scriptively Free for 7 Days"
             android:textColor="@color/black"
             android:textSize="@dimen/_15ssp">
@@ -83,16 +84,14 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-
+                android:layout_gravity="left"
                 android:orientation="horizontal">
 
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="@dimen/_60sdp"
+                    android:layout_marginLeft="@dimen/_16sdp"
 
                     android:background="@drawable/check">
 
@@ -102,7 +101,7 @@
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_marginLeft="@dimen/_10sdp"
                     android:text="Script Writer and StoryBoard Editor">
 
@@ -124,7 +123,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="@dimen/_60sdp"
+                    android:layout_marginLeft="@dimen/_16sdp"
 
                     android:background="@drawable/check">
 
@@ -155,11 +154,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="@dimen/_60sdp"
-
+                    android:layout_marginLeft="@dimen/_16sdp"
                     android:background="@drawable/check">
-
-
                 </ImageView>
 
 
@@ -179,8 +175,9 @@
                 android:id="@+id/lowSub"
                 android:layout_width="@dimen/_260sdp"
                 android:layout_height="@dimen/_30sdp"
-                android:layout_gravity="center"
+                android:layout_gravity="left"
                 android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_16sdp"
                 android:background="@drawable/subscription_button"
                 android:orientation="horizontal">
 
@@ -215,7 +212,8 @@
                 android:id="@+id/mediumSub"
                 android:layout_width="@dimen/_260sdp"
                 android:layout_height="@dimen/_30sdp"
-                android:layout_gravity="center"
+                android:layout_gravity="left"
+                android:layout_marginLeft="@dimen/_16sdp"
                 android:layout_marginTop="@dimen/_20sdp"
                 android:orientation="horizontal">
 
@@ -257,8 +255,9 @@
                 android:id="@+id/highSub"
                 android:layout_width="@dimen/_260sdp"
                 android:layout_height="@dimen/_30sdp"
-                android:layout_gravity="center"
+                android:layout_gravity="left"
                 android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_16sdp"
                 android:orientation="horizontal">
 
 
@@ -353,7 +352,7 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
-                android:layout_margin="@dimen/_20sdp"
+                android:layout_margin="@dimen/_16sdp"
                 app:cardCornerRadius="@dimen/_10sdp"
                 android:layout_height="wrap_content">
                 <RelativeLayout
@@ -369,7 +368,7 @@
                     android:layout_height="match_parent"
                     android:inputType="textMultiLine"
                     android:text="Details\n\nSubscription automatically renew unless auto-renew turned off at least 24 hours before the end of the current period. You can turn off auto renew subscription from with in Android settings.
-                                    \n\nPrice of Subscription: \nTry free for 7 days then pay INR 4299/year. Payment will be changed to your Android account at confirmation of purchase. Any unused portion of a free trail will be firfieted when purchasing a subscription before it ends."
+                                    \n\nPrice of Subscription: \nTry free for 7 days then pay INR 4299/year. Payment will be changed to your Android account at confirmation of purchase. Any unused portion of a free trail will be forfieted when purchasing a subscription before it ends."
                     />
                 <LinearLayout
                     android:gravity="center"

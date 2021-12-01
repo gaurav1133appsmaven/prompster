@@ -458,11 +458,54 @@
 
         </RelativeLayout>
 
-        <View
+
+            <View
+                android:id="@+id/view_write"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/rl_apps"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="#E4DFDF"
+                >
+
+
+            </View>
+
+
+            <RelativeLayout
+                android:id="@+id/rl_write"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view_write"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/write_a_review"
+                    android:textColor="#3B3B3B"
+                    android:textSize="@dimen/_11ssp">
+
+
+                </TextView>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/next_arrow"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/_5sdp"/>
+
+            </RelativeLayout>
+
+
+            <View
             android:id="@+id/view_app"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:layout_below="@id/rl_apps"
+            android:layout_below="@id/rl_write"
             android:layout_marginTop="@dimen/_10sdp"
             android:background="#E4DFDF"
             android:visibility="visible">

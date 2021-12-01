@@ -186,25 +186,14 @@
                         android:layout_marginRight="@dimen/_20sdp">
 
 
-                        <RelativeLayout
-                            android:id="@+id/iv_crosstext"
-                            android:layout_width="@dimen/_20sdp"
-                            android:layout_height="@dimen/_20sdp"
-                            android:layout_alignParentRight="true"
-                            android:layout_marginRight="@dimen/_10sdp">
-
                             <ImageView
                                 android:id="@+id/iv_cross_fontstyle"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_alignParentRight="true"
                                 android:layout_marginRight="@dimen/_10sdp"
-                                android:background="@drawable/cross_text">
+                                android:background="@drawable/cross_text"/>
 
-
-                            </ImageView>
-
-                        </RelativeLayout>
 
                         <TextView
                             android:layout_width="wrap_content"

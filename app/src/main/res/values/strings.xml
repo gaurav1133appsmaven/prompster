@@ -33,7 +33,7 @@
     <string name="signup">Sign Up</string>
     <string name="sign_facebook">Sign in with facebook</string>
 
-    <string name="sign_gmail">Sign up with Google</string>
+    <string name="sign_gmail">Sign in with Google</string>
     <string name="frst_name">First Name</string>
     <string name="lst_name">Last Name </string>
     <string name="emai_addreess">Email address</string>
@@ -63,7 +63,6 @@
     <string name="cancel">Cancel</string>
     <string name="test">Test</string>
     <string name="testing">Testing</string>
-    <string name="reset">Reset</string>
     <string name="logoff">Log off</string>
     <string name="export_script">Export Script</string>
     <string name="print">Print</string>
@@ -98,7 +97,9 @@
     <string name="how_tovidesos">How to Videos</string>
     <string name="faq">FAQ</string>
     <string name="review">Review</string>
-    <string name="support">Support</string>
+    <string name="support">Contact Support</string>
+    <string name="write_a_review">Write a Review</string>
+
     <string name="other">Other Apps by DanteMedia,LLC.</string>
     <string name="logoutt">Logout</string>
     <string name="version">Version 1.0</string>
@@ -108,8 +109,7 @@
     <string name="message_two">Message Two</string>
     <string name="message_thre">Message Three</string>
     <string name="timerVal">00:00:00</string>
-    <string name="app_key">a3vw0mjhsmn3q0e</string>
-
+    <string name="app_key">ogp2q4yg0nntd1o</string>
     <string name="prompster">Everything that a</string>
     <string name="value_prom">Speaker needs to</string>
     <string name="message_onee">Write and deliver</string>
@@ -119,5 +119,6 @@
     <string name="write_prompt">Write, prompt, record &amp; playback talks to improve your skills, and ...</string>
     <string name="learn_speak">Learn to speak, teach &amp; lead with more confidence and authority</string>
     <string name="google_license_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyiqkbtsfnvJdWZ7as+w3eFSiSu+wKyjQjdavZhEssuFSZvCXQvPqL+ubqaO+ziG9MNi8bYaPUfxQsAVuXgSX2ZV/LSga+ihOBIOoGXmsloY93KUyT1uIEfM6fCT4/XQqrKHRAyIY2F5PXmqkkY3DeYlO0c2OK+lnRkoY0w7XnSBGuPVjJNjGf590VYPeJpVtrxVF7gLXFoFgHOY9t91Uj4UgoMUsy7Fe4UXSu/FoPuepZfHKTGSPWZG/1E158tOLcYjXYJBHlaP8JsoHLZuoya/Vy5QlTRocp5KB4+QAc23x/+iP+p8WxpMxi7vuebVejhVkoGzkh9p5wBm4Fk1I5wIDAQAB</string>
+    <string name="reset">Reset</string>
 
 </resources>

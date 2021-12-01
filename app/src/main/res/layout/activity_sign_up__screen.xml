@@ -89,21 +89,18 @@
                         android:layout_marginTop="30dp"
                         android:layout_marginRight="20dp">
 
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
                         <EditText
                             android:id="@+id/et_frstname"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="@null"
-                            android:imeOptions="actionNext"
-
                             android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+
                             android:hint="@string/frst_name"
+                            android:imeOptions="actionNext"
                             android:inputType="textCapSentences|text"
                             android:textColor="@color/black"
-                            android:textSize="@dimen/_12ssp"></EditText>
+                            android:textSize="@dimen/_12ssp"/>
 
 
                     </RelativeLayout>
@@ -165,10 +162,10 @@
                             android:layout_height="wrap_content"
                             android:background="@null"
                             android:hint="@string/emai_addreess"
-                            android:inputType="text"
                             android:imeOptions="actionNext"
+                            android:inputType="textEmailAddress"
                             android:textColor="@color/black"
-                            android:textSize="@dimen/_12ssp"></EditText>
+                            android:textSize="@dimen/_12ssp"/>
 
 
                     </RelativeLayout>
@@ -399,7 +396,9 @@
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:layout_gravity="center"
                         android:layout_marginTop="10dp">
 
 
@@ -407,10 +406,9 @@
                             android:id="@+id/tv_byyy"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-
                             android:text="@string/by"
                             android:textColor="@color/black"
-                            android:textSize="@dimen/_10ssp">
+                            android:textSize="@dimen/_8sdp">
 
                         </TextView>
 
@@ -424,7 +422,7 @@
                             android:text="Terms and"
                             android:textAlignment="center"
                             android:textColor="@color/app_color"
-                            android:textSize="@dimen/_10ssp" />
+                            android:textSize="@dimen/_8sdp" />
 
                         <TextView
                             android:id="@+id/tv_conditions"
@@ -435,7 +433,7 @@
                             android:text="@string/condition"
                             android:textColor="@color/app_color"
 
-                            android:textSize="@dimen/_10ssp">
+                            android:textSize="@dimen/_8sdp">
 
                         </TextView>
 
@@ -449,7 +447,7 @@
                             android:layout_toRightOf="@+id/tv_conditions"
                             android:text="@string/and"
                             android:textColor="@color/black"
-                            android:textSize="@dimen/_10ssp" />
+                            android:textSize="@dimen/_8sdp" />
 
                         <TextView
                             android:id="@+id/tv_privacy_policy"
@@ -460,7 +458,7 @@
                             android:layout_toRightOf="@+id/tv_andd"
                             android:text="@string/privacy_policy"
                             android:textColor="@color/app_color"
-                            android:textSize="@dimen/_10ssp" />
+                            android:textSize="@dimen/_8sdp" />
 
                     </RelativeLayout>
 

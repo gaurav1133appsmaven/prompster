@@ -8,18 +8,18 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:812089474187:android:7606bb5cb46098448fa88e",
+        "mobilesdk_app_id": "1:812089474187:android:bdab94b15841837b8fa88e",
         "android_client_info": {
-          "package_name": "com.project.prompster_live"
+          "package_name": "com.scriptively.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "812089474187-kigkggetoicrvh05reumqgg0ls6oq250.apps.googleusercontent.com",
+          "client_id": "812089474187-hhm18jj83qimf2pocmgbr28qivh3e4c4.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.project.prompster_live",
-            "certificate_hash": "ed4607200b392d8277dc6597ae5fd73c6e5cb7f1"
+            "package_name": "com.scriptively.app",
+            "certificate_hash": "eb6da3fa5c7938d331562794716f63e8c03fb41a"
           }
         },
         {
@@ -36,7 +36,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "812089474187-6k45qnbjhke0cears3gtr6lr17d1f07t.apps.googleusercontent.com",
+              "client_id": "102347697566000122093",
               "client_type": 3
             },
             {

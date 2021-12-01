@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+ >
+<RelativeLayout
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+
     tools:context=".Activity.Welcome">
 
     <ImageView
@@ -19,20 +25,20 @@
     </ImageView>
 
 
-    <com.project.prompster_live.Utils.ViewPagerCustomDuration
+    <com.scriptively.app.Utils.ViewPagerCustomDuration
         android:id="@+id/view_pager"
-        android:layout_below="@+id/iv_wel"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="@dimen/_270sdp"
+        android:layout_below="@+id/iv_wel" />
 
     <LinearLayout
         android:id="@+id/layoutDots"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_50sdp"
-       android:layout_above="@+id/rl_sign"
-android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_below="@+id/view_pager"
+        android:layout_marginBottom="@dimen/_5sdp"
         android:gravity="center"
-        android:orientation="horizontal"></LinearLayout>
+        android:orientation="horizontal" />
 
     <View
         android:layout_width="match_parent"
@@ -47,23 +53,20 @@ android:layout_marginBottom="@dimen/_5sdp"
         android:id="@+id/rl_sign"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-      android:layout_marginBottom="@dimen/_160sdp"
-        android:layout_alignParentBottom="true"
-
-        >
+        android:layout_below="@+id/layoutDots">
 
         <TextView
             android:id="@+id/btn_next"
             android:layout_width="@dimen/_230sdp"
             android:layout_height="@dimen/_40sdp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/button_shape"
             android:gravity="center"
             android:text="@string/signup"
-            android:background="@drawable/button_shape"
             android:textAlignment="center"
-            android:layout_centerInParent="true"
+            android:textColor="@color/white"
             android:textSize="@dimen/_18ssp"
-            android:textStyle="bold"
-            android:textColor="@color/white"/>
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btn_next1"
@@ -91,11 +94,11 @@ android:layout_marginBottom="@dimen/_5sdp"
         android:id="@+id/rl_signin"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_40sdp"
-        android:layout_centerInParent="true"
-        android:layout_marginBottom="@dimen/_110sdp"
+
         android:layout_centerHorizontal="true"
+        android:layout_below="@+id/rl_sign"
         android:gravity="center"
-        android:layout_alignParentBottom="true">
+   >
 
 
         <TextView
@@ -124,3 +127,4 @@ android:layout_marginBottom="@dimen/_5sdp"
 
     </RelativeLayout>
 </RelativeLayout>
+</ScrollView>
